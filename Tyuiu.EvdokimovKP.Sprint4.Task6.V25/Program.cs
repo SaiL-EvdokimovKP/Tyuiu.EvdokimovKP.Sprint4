@@ -5,10 +5,13 @@ Console.WriteLine("ИСХОДНЫЕ ДАННЫЕ:                               
 Console.WriteLine("********************************************************************");
 string[] array = new string[] { "Теннис ", "Футбол ", "Крикет ", "Баскетбол ", "Бейсбол ", "Регби ", "Хоккей" };
 for (int i = 0; i < array.Length; i++)
+{
     Console.Write($"{array[i]} \t");
+}
 Console.WriteLine();
 Console.WriteLine("********************************************************************");
 Console.WriteLine("РЕШЕНИЕ:                                                            ");
 Console.WriteLine("********************************************************************");
 int res = ds.Calculate(array);
-Console.WriteLine(res);
+int x = 7;
+Console.WriteLine(x - res);
