@@ -12,7 +12,7 @@ namespace Tyuiu.EvdokimovKP.Sprint4.Task6.V25.Test
             var x = new string[] { "Теннис", "Футбол", "Крикет", "Баскетбол", "Бейсбол", "Регби", "Хоккей" };
             int res = ds.Calculate(x); 
             int wait = 2;
-            Assert.AreEqual(res, wait);
+            Assert.AreEqual(wait, res);
         }
     }
 }
